@@ -1,0 +1,59 @@
+{
+  "name": "needletracker",
+  "version": "1.0.0",
+  "description": "Combine 538's election model with the results from the nyts needle",
+  "main": "index.js",
+  "dependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/node": "^14.11.8",
+    "@types/table": "^6.0.0",
+    "chalk": "^4.1.0",
+    "table": "^6.0.3"
+  },
+  "devDependencies": {
+    "@tsconfig/node14": "^1.0.0",
+    "@types/jest": "^26.0.14",
+    "@typescript-eslint/eslint-plugin": "^4.4.1",
+    "@typescript-eslint/eslint-plugin-tslint": "^4.4.1",
+    "@typescript-eslint/parser": "^4.5.0",
+    "eslint": "^7.11.0",
+    "eslint-config-airbnb-typescript": "^12.0.0",
+    "eslint-config-prettier": "^6.13.0",
+    "eslint-import-resolver-typescript": "^2.3.0",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jest": "^24.1.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.21.4",
+    "eslint-plugin-react-hooks": "^4.1.2",
+    "eslint-plugin-standard": "^4.0.1",
+    "husky": "^5.0.0-beta.0",
+    "jest": "^26.5.3",
+    "prettier": "^2.1.2",
+    "ts-jest": "^26.4.1",
+    "typescript": "^4.0.3"
+  },
+  "private": true,
+  "scripts": {
+    "postinstall": "husky install",
+    "clean": "rm -r node_modules; rm -r dist",
+    "format": "prettier --write --config .prettierrc '{test,src}/**/*.ts'",
+    "build": "tsc",
+    "test": "jest",
+    "lint": "prettier --config .prettierrc '{test,src}/**/*.ts' --check; eslint .",
+    "checkNeedle": "npm run build && node ./dist/src/run.js",
+    "coverage": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bachmann1234/2020ElectionNeedleTracker.git"
+  },
+  "author": "Matt Bachmann",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Bachmann1234/2020ElectionNeedleTracker/issues"
+  },
+  "homepage": "https://github.com/Bachmann1234/2020ElectionNeedleTracker#readme"
+}
