@@ -2,6 +2,10 @@
 
 [![Build Status](https://travis-ci.com/Bachmann1234/2020ElectionNeedleTracker.svg?branch=main)](https://travis-ci.com/Bachmann1234/2020ElectionNeedleTracker)
 
+# Eh, nevermind
+
+The NYT needle page has everything I was thinking about keeping an eye on here and quite frankly its more likely not to mislead me. Had a fun evening putting this together but dont think ill be using it. Left here to get nostalgic about in like 10 years or whatever
+
 ![Screenshot](./example.png)
 
 Takes numbers from
