@@ -1,5 +1,7 @@
 # 2020 Election Needle tracker
 
+[![Build Status](https://travis-ci.com/Bachmann1234/2020ElectionNeedleTracker.svg?branch=main)](https://travis-ci.com/Bachmann1234/2020ElectionNeedleTracker)
+
 ![Screenshot](./example.png)
 
 Takes numbers from
