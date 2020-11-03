@@ -1,5 +1,7 @@
 # 2020 Election Needle tracker
 
+![Screenshot](./example.png)
+
 Takes numbers from
 https://projects.fivethirtyeight.com/trump-biden-election-map/?cid=abcnews
 and
